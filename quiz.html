@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - AntiTrenings</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95dd1c1928.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="Logo" class="logo">BrightPath</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                <li class="nav-item"><a class="nav-link" id="theme-toggle">🌞</a></li>
+                <li class="nav-item"><a class="nav-link" id="language-toggle">EN</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <section id="quiz" class="content">
+            <h2 data-lang-en="Quiz" data-lang-ru="Тест">Quiz</h2>
+            <hr>
+            <div id="quiz-container">
+                <div class="quiz-question">
+                    <p data-lang-en="1. Which word is a synonym of 'happy'?" data-lang-ru="1. Which word is a synonym of 'happy'?">1. Which word is a synonym of "happy"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="sad" data-lang-ru="sad">sad</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="angry" data-lang-ru="angry">angry</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="joyful" data-lang-ru="joyful">joyful</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="tired" data-lang-ru="tired">tired</button>
+                </div>
+                
+                <div class="quiz-question">
+                    <p data-lang-en="2. What is the opposite of the word 'big'?" data-lang-ru="2. What is the opposite of the word 'big'?">2. What is the opposite of the word "big"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="small" data-lang-ru="small">small</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="tall" data-lang-ru="tall">tall</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="wide" data-lang-ru="wide">wide</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="long" data-lang-ru="long">long</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="3. What is the correct preposition to complete the phrase: 'The cat is ______ the table'?" data-lang-ru="3. What is the correct preposition to complete the phrase: 'The cat is ______ the table'?">3. What is the correct preposition to complete the phrase: "The cat is ______ the table"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="on" data-lang-ru="on">on</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="in" data-lang-ru="in">in</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="under" data-lang-ru="under">under</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="above" data-lang-ru="above">above</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="4. Which word is a verb?" data-lang-ru="4. Which word is a verb?">4. Which word is a verb?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="apple" data-lang-ru="apple">apple</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="run" data-lang-ru="run">run</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="beautiful" data-lang-ru="beautiful">beautiful</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="house" data-lang-ru="house">house</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="5. What is the past tense of the verb 'to be' for the pronoun 'he'?" data-lang-ru="5. What is the past tense of the verb 'to be' for the pronoun 'he'?">5. What is the past tense of the verb "to be" for the pronoun "he"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="were" data-lang-ru="were">were</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="am" data-lang-ru="am">am</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="was" data-lang-ru="was">was</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="is" data-lang-ru="is">is</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="6. What is the plural form of 'child'?" data-lang-ru="6. What is the plural form of 'child'?">6. What is the plural form of "child"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="childs" data-lang-ru="childs">childs</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="childes" data-lang-ru="childes">childes</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="child's" data-lang-ru="child's">child's</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="children" data-lang-ru="children">children</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="7. Which word is a synonym of 'beautiful'?" data-lang-ru="7. Which word is a synonym of 'beautiful'?">7. Which word is a synonym of "beautiful"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="ugly" data-lang-ru="ugly">ugly</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="pretty" data-lang-ru="pretty">pretty</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="plain" data-lang-ru="plain">plain</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="attractive" data-lang-ru="attractive">attractive</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="8. What is the past tense of the verb 'to eat'?" data-lang-ru="8. What is the past tense of the verb 'to eat'?">8. What is the past tense of the verb "to eat"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="eat" data-lang-ru="eat">eat</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="eaten" data-lang-ru="eaten">eaten</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="ate" data-lang-ru="ate">ate</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="eating" data-lang-ru="eating">eating</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="9. What is the comparative form of the adjective 'good'?" data-lang-ru="9. What is the comparative form of the adjective 'good'?">9. What is the comparative form of the adjective "good"?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="gooder" data-lang-ru="gooder">gooder</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="more good" data-lang-ru="more good">more good</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="better" data-lang-ru="better">better</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="incorrect" data-lang-en="best" data-lang-ru="best">best</button>
+                </div>
+                <div class="quiz-question">
+                    <p data-lang-en="10. Who is the best teacher?" data-lang-ru="10. Who is the best teacher?">10. Who is the best teacher?</p>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="Kutpanova Zarina" data-lang-ru="Kutpanova Zarina">Kutpanova Zarina</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="WEB Technologies" data-lang-ru="WEB Technologies">WEB Technologies</button>
+                    <button class="btn btn-outline-primary quiz-option" data-answer="correct" data-lang-en="Zarina Kutpanova" data-lang-ru="Zarina Kutpanova">Zarina Kutpanova</button>
+                </div>
+            </div>
+            <button id="submit-quiz" class="btn btn-success mt-3" data-lang-en="Submit Quiz" data-lang-ru="Отправить тест">Submit Quiz</button>
+            <div id="quiz-result" class="mt-3" style="display:none;">
+                <h3 data-lang-en="Your Results:" data-lang-ru="Ваши результаты:">Your Results:</h3>
+                <p id="quiz-score"></p>
+                <p id="quiz-message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+    
+            <div class="footer_inner">
+                <div class="footer_col footer_col-first">
+                    <div class="footer_logo">BrightPath</div>
+                    <div class="footer_text" data-lang-en="Ready to illuminate your English journey? Enroll in BrightPath English today and take the first step towards fluency. Unlock new opportunities and connect with the world through the power of English." data-lang-ru="Готовы рассказать о своем путешествии по английскому языку? Зарегистрируйтесь в BrightPath English сегодня и сделайте первый шаг к свободному владению английским языком. Откройте для себя новые возможности и общайтесь с миром благодаря силе английского языка.">Ready to illuminate your English journey? Enroll in BrightPath English today and take the first step towards fluency. Unlock new opportunities and connect with the world through the power of English.</div>
+                    <div class="footer_social">
+                        <div class="footer_social_header">
+                            <b>15k</b> followers
+                        </div>
+                        <div class="footer_social_content">
+                            Join us:
+                            <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i> 
+                            </a>
+                            <a href="https://x.com/?lang=ru" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/rbitchees/?locale=en-GB" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        
+                        </div>
+                    </div>
+    
+                    
+                </div>
+    
+    
+                <div class="footer_col footer_col-second">
+                    
+    
+                </div>
+    
+                <div class="footer_col footer_col-third">
+                    <form class="subscribe" action="/" method="post">
+                        <input class="subscribe_input" type="text" name="name" placeholder="Full Name">
+                        <input class="subscribe_input" type="date" name="name" placeholder="dd.mm.yyyy">
+                        <input class="subscribe_input" type="email" name="name" placeholder="Your Email">
+                        <input class="subscribe_input" type="text" name="name" placeholder="Your phone number">
+                        <button class="subscribe_btn" type="submit">sign up</button>
+                    </form>
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

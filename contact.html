@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AntiTrenings</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95dd1c1928.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="Logo" class="logo">BrightPath</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                <li class="nav-item"><a class="nav-link" id="theme-toggle">🌞</a></li>
+                <li class="nav-item"><a class="nav-link" id="language-toggle">EN</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="contact-section">
+        <h1 data-lang-en="Contacts" data-lang-ru="Контакты">Contacts</h1>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="icon">📍</span>
+                <h2 data-lang-en="Address" data-lang-ru="Адрес">Address</h2>
+                <p data-lang-en="Mangilik El avenue, 55/11. Business center EXPO, block C1 Astana, Kazakhstan, 010000" data-lang-ru="Мәңгілік Ел, 55/11. Бизнес-центр 'ЭКСПО', Черный C1 Астана, Казахстан, 010000">Mangilik El avenue, 55/11. Business center EXPO, block C1 Astana, Kazakhstan, 010000</p>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📧</span>
+                <h2 data-lang-en="Mail" data-lang-ru="Почта">Mail</h2>
+                <p><a href="mailto:a.tleuberdinova@bk.ru">a.tleuberdinova@bk.ru</a></p>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📱</span>
+                <h2 data-lang-en="Phone number" data-lang-ru="Номер телефона">Phone number</h2>
+                <p><a href="tel:87071113687">8 (707) 111-3687</a></p>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://maps.google.com/maps?q=Kazakhstan&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h1 data-lang-en="Contact Us" data-lang-ru="Связаться с нами">Contact Us</h1>
+        <form action="/submit_form" method="post">
+            <label for="first_name" data-lang-en="Name" data-lang-ru="Имя">Name</label>
+            <input type="text" id="first_name" name="first_name" required>
+            
+            <label for="last_name" data-lang-en="Last Name" data-lang-ru="Фамилия">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required>
+            
+            <label for="email" data-lang-en="Email" data-lang-ru="Электронная почта">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone" data-lang-en="Phone Number" data-lang-ru="Номер телефона">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message" data-lang-en="Message" data-lang-ru="Сообщение">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <div class="consent">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent" data-lang-en="I give my consent to the processing of my personal data for marketing purposes of the administrator." data-lang-ru="Даю согласие на обработку моих персональных данных в маркетинговых целях администратора.">I give my consent to the processing of my personal data for marketing purposes of the administrator.</label>
+            </div>
+            <hr>
+            <button type="submit" data-lang-en="Submit" data-lang-ru="Отправить">Submit</button>
+        </form>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+    
+            <div class="footer_inner">
+                <div class="footer_col footer_col-first">
+                    <div class="footer_logo">BrightPath</div>
+                    <div class="footer_text" data-lang-en="Ready to illuminate your English journey? Enroll in BrightPath English today and take the first step towards fluency. Unlock new opportunities and connect with the world through the power of English." data-lang-ru="Готовы рассказать о своем путешествии по английскому языку? Зарегистрируйтесь в BrightPath English сегодня и сделайте первый шаг к свободному владению английским языком. Откройте для себя новые возможности и общайтесь с миром благодаря силе английского языка.">Ready to illuminate your English journey? Enroll in BrightPath English today and take the first step towards fluency. Unlock new opportunities and connect with the world through the power of English.</div>
+                    <div class="footer_social">
+                        <div class="footer_social_header">
+                            <b>15k</b> followers
+                        </div>
+                        <div class="footer_social_content">
+                            Join us:
+                            <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i> 
+                            </a>
+                            <a href="https://x.com/?lang=ru" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/rbitchees/?locale=en-GB" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        
+                        </div>
+                    </div>
+    
+                    
+                </div>
+    
+    
+                <div class="footer_col footer_col-second">
+                    
+    
+                </div>
+    
+                <div class="footer_col footer_col-third">
+                    <form class="subscribe" action="/" method="post">
+                        <input class="subscribe_input" type="text" name="name" placeholder="Full Name">
+                        <input class="subscribe_input" type="date" name="name" placeholder="dd.mm.yyyy">
+                        <input class="subscribe_input" type="email" name="name" placeholder="Your Email">
+                        <input class="subscribe_input" type="text" name="name" placeholder="Your phone number">
+                        <button class="subscribe_btn" type="submit">sign up</button>
+                    </form>
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
